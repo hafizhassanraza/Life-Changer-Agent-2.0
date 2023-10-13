@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/top_inestment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Investment" />
+
+    <item
+        android:id="@+id/top_withdraw"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Withdraw" />
+    <item
+        android:id="@+id/top_Profit"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Profit" />
+    <item
+        android:id="@+id/top_Tax"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Tax" />
+
+
+
+</menu>

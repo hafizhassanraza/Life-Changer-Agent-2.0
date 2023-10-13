@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:layout_margin="5dp">
+
+
+        <RelativeLayout
+            android:id="@+id/layFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgUserProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"/>
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/imgUserProfile"
+                    android:textColor="@color/primary"
+                    android:paddingStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. xYZ"/>
+                <TextView
+                    android:id="@+id/tvCNIC"
+                    android:paddingStart="20dp"
+                    android:layout_toRightOf="@+id/imgUserProfile"
+                    android:layout_below="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CNIC"/>
+                <TextView
+                    android:id="@+id/tvMobile"
+                    android:paddingStart="20dp"
+                    android:layout_toRightOf="@+id/imgUserProfile"
+                    android:layout_below="@+id/tvCNIC"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"/>
+            <TextView
+                android:id="@+id/tvtimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="time stamp when created"
+                android:layout_below="@+id/tvMobile"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="5dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
